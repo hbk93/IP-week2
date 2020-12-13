@@ -68,11 +68,12 @@
     <p>Now that you know what all this is about, why don't we get straight into the interesting part. Fill in your date
       of birth in the form below:</p>
     <form>
-      <label for="date">enter year, month and date:</label>
-      <input type="date" id="date" name="date">
+      <label for="date">Enter date, month and year:</label>
+      <input type="date" id="date" name="date" min="01/01/1990">
       <label for="gender">enter gender:</label>
-      <input type="radio" name="gender" value="male">Male</input>
-      <input type="radio" name="gender" value="female">Female</input>
+      <input type="radio" name="gender" value="male" id="male">Male</input>
+      <input type="radio" name="gender" value="female" id="female">Female</input>
+      <input type="submit" value="submit" onclick="form.getAkanName()"></input>
     </form>
   </div>
   <script src="js/script.js"></script>
