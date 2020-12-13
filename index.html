@@ -15,12 +15,14 @@
       <h1>Welcome to Akan Name</h1>
     </div>
     <p>You probably know when it's your birthday and are excited whenever it comes around each year.
-      However, you probably don't know the actual date that you are born and that is what I'm here to help you with.
+      However, you probably don't know the actual day of the week that you are born and that is what I'm here to help
+      you with.
       <br>
       By now you are probably wondering what Akan name is. Well, Akan names are derived from Ghanian culture. Frequently
       in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were
       born.<br>
-      Here are Ghanian day names:</p>
+      Here are Ghanian day names:
+    </p>
     <div class="row">
       <div class="col-md-6">
         <div class="card">
@@ -63,8 +65,15 @@
       </div>
     </div>
     <br>
-    <p>Now that you know what all this is about, why don't we get straight into the interesting part. Fill in your date of birth in the form below:</p>
-    <form></form>
+    <p>Now that you know what all this is about, why don't we get straight into the interesting part. Fill in your date
+      of birth in the form below:</p>
+    <form>
+      <label for="date">enter year, month and date:</label>
+      <input type="date" id="date" name="date">
+      <label for="gender">enter gender:</label>
+      <input type="radio" name="gender" value="male">Male</input>
+      <input type="radio" name="gender" value="female">Female</input>
+    </form>
   </div>
   <script src="js/script.js"></script>
 </body>
