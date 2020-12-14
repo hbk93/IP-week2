@@ -10,7 +10,7 @@ function getAkanName() {
   var year = date.getYear();
   var day = date.getDate();
   if (date > currentDate) {
-    alert("You couldn't possibly have been born in the future. Enter valid Date.");
+    alert("Enter valid Date.");
   }
   else if (month < 0 || month > 11) {
     alert("Enter valid Month.");
@@ -23,6 +23,9 @@ function getAkanName() {
   }
   else if (gender === "Female") {
     alert("Your Akan name is " + akanFemaleName[d])
+  }
+  else {
+    alert("Do fill in the blanks");
   }
 }
 
