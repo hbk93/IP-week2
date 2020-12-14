@@ -70,10 +70,12 @@
     <form>
       <label for="date">Enter date, month and year:</label>
       <input type="date" id="date" name="date" min="01/01/1990">
-      <label for="gender">enter gender:</label>
+      <label for="gender">Enter Gender:</label>
       <input type="radio" name="gender" value="male" id="male">Male</input>
       <input type="radio" name="gender" value="female" id="female">Female</input>
-      <input type="submit" value="submit" onclick="form.getAkanName()"></input>
+      
+      <button type="button" value="Submit" onclick="getAkanName()">Submit</button>
+      <button type="button" value="clear" onclick="reset()">clear</button>
     </form>
   </div>
   <script src="js/script.js"></script>
