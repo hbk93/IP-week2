@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * Run the URL on your browser
 ## Known Bugs
-* None so far.
+* The JavaScript file fails to run
 ## Technologies Used
 * HTML, CSS, Bootstrap CSS, JavaScript
 ## Support and contact details
