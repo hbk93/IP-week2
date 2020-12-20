@@ -65,18 +65,49 @@
       </div>
     </div>
     <br>
-    <p>Now that you know what all this is about, why don't we get straight into the interesting part. Fill in your date
-      of birth in the form below:</p>
-    <form>
-      <label for="date">Enter date, month and year:</label>
-      <input type="date" id="date" name="date" min="01/01/1990">
-      <label for="gender">Enter Gender:</label>
-      <input type="radio" name="gender" value="male" id="male">Male</input>
-      <input type="radio" name="gender" value="female" id="female">Female</input>
-      
-      <button type="button" value="Submit" onclick="getAkanName()">Submit</button>
-      <button type="button" value="clear" onclick="reset()">clear</button>
+    <p>Now that you know what all this is about, why don't we get straight into the interesting part. Fill in your date of birth in the form below:</p>
+  </div>
+  <div class="container">
+    <form action="#" class="form">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="row" id="forms">
+            <div class="col-md-3">
+              <div class="day">
+                <label for="day">Enter Day</label>
+                <input type="text" maxlength="2" class="form-control" id="day" placeholder="eg.12" value="">
+              </div>
+            </div>
+            <div class="col-md-3 month">
+              <div class="month">
+                <label for="month">Enter Month</label>
+                <input type="text" maxlength="2" class="form-control" id="month" placeholder="eg. 5 for May" value="">
+              </div>
+            </div>
+            <div class="col-md-3 year">
+              <div class="year">
+                <label for="month">Enter Year</label>
+                <input type="text" maxlength="4" class="form-control" id="year" placeholder="eg.1990" value="">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class=gender>
+                <label for="gender">Gender</label>
+                <select class="custom-select" id="gender" required>
+                  <option value="">Choose</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </form>
+    <br>
+    <button id="button" type="submit" class="btn btn-info" onclick="calculateBirthday()">Get your Akan name</button>
+    <br><br>
+    <p id="yourName">Click "Get your Akan name" button above to display the results here</p>
   </div>
   <script src="js/script.js"></script>
 </body>
