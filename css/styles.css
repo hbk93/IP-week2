@@ -4,3 +4,6 @@ body {
 .card {
   background-image: url(../images/mountain.jpg);
 }
+#yourName {
+  text-align: center;
+}
