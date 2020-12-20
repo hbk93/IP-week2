@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * Run the URL on your browser
 ## Known Bugs
-* The JavaScript file fails to run
+* The formula for calculating day of the week seems to have issues.
 ## Technologies Used
 * HTML, CSS, Bootstrap CSS, JavaScript
 ## Support and contact details
